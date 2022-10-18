@@ -1,0 +1,29 @@
+span{
+    font-family:fantasy
+    
+    }
+.indigo{
+    background-color:crimson;
+    color:indigo;
+
+    }
+
+.background_image{
+    background-image:url(https://wallpapers.com/images/hd/tower-of-god-hell-joe-7sxvghrqew8uwv26-7sxvghrqew8uwv26.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    }
+.backdrop{
+    background-color: black;
+}
+#idset{
+    font-size: 100px;
+    color: violet;
+}
+#idtwo{
+    font-size: x-large;
+    color:magenta;
+    font-style:italic;
+    background-color:unset;
+}
