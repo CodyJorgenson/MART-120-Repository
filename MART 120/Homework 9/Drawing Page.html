@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Drawing Page</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+        <script src="sketch.js"></script>
+        <script>
+            function setup() {
+                createCanvas(600,500);
+              }
+              
+              function draw() {
+                background(230,10,10);
+                textSize(12)
+                fill(0);
+                text("Cody Jorgenson",510,490)
+
+                strokeWeight(0);
+
+                //hair
+                rect(120,90,350,400);
+                //head
+                fill(230);
+
+                ellipse(300,250,350,400);
+
+                //bangs
+                fill(0);
+                ellipse(300,120,360,220);
+
+                //left lashes
+                fill(10);
+                ellipse(230,260,80,60);
+                fill(200);
+                ellipse(230,270,90,45);
+
+                //right lashes
+                fill(10);
+                ellipse(365,260,80,60);
+                fill(200);
+                ellipse(365,270,90,45);
+
+                //eyes
+                strokeWeight(1);
+                fill(230)
+                triangle(196, 270, 230, 290, 260, 275);
+
+                //right eye
+                strokeWeight(1);
+                fill(230)
+                triangle(400, 270, 360, 290, 330, 275);
+
+                //pupil
+                fill(230);
+                strokeWeight(8);
+                point(230, 277);
+
+                //right pupil
+                fill(230);
+                strokeWeight(8);
+                point(360, 277);
+
+                //nose
+                strokeWeight(1);
+                triangle(300, 280, 315, 350, 290, 360);
+                strokeWeight(0);
+                triangle(299, 280, 314, 350, 289, 360);
+
+                //mouth line
+                strokeWeight(2);
+                line(230, 380, 360, 390);
+
+              }
+        </script>
+    </head>
+    <body style="background-color: black; color: white;"><b>Title:</b>I swear I dont look so edgy irl</body>
+</html>
