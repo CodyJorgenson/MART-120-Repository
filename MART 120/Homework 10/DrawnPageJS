@@ -1,0 +1,277 @@
+/*
+var movement = 13;
+var pupilLeftX = 230;
+var pupilLeftY = 277;
+var pupilRightX = 360;
+var pupilRightY = 277;
+var movement2 = 5;
+var rightBX = 365;
+var rightBY = 260;
+var browLX = 230;
+var browLY = 260;
+var movement3 = 20;
+var headX = 300;
+var headY = 250;
+var slide = 10;
+var size = 10;
+var sizeDirection = 2;
+var count = 0;
+var headSize = 300;
+var count1 = 50;
+var sizeDirection2 = 2;
+
+
+function setup() {
+    createCanvas(600,500);
+    movement3 = floor(random() * 15) + 1;
+    movement2 = floor(random() * 15) + 1;
+    movement = floor(random() * 15) + 1;
+  
+  }
+  
+function draw() {
+    background(230,10,10);
+    textSize(12);
+    fill(0);
+    text("Cody Jorgenson",510,490)
+
+    textSize(size);
+    size += sizeDirection;
+    count++;
+    if(count > 5)
+    {
+        sizeDirection *=-1;
+        count = 0;
+    }
+    fill(250,250,250)
+    text("The Boogie Man",20,20)
+
+    
+    fill(0);
+    strokeWeight(0);
+
+    //hair
+    rect(120,90,350,400);
+    //head
+    fill(230);
+    ellipse(headX,headY,headSize,headSize);
+    if(headX >= 500 || headX <= 100)
+    {
+        slide *= -1;
+    }
+    headX += slide;
+    if(headY >= 400 || headY <= 150)
+    {
+        slide *= -1;
+    }
+    headY += slide;
+
+    headSize += sizeDirection2;
+    count1++;
+    if(count1 > 200)
+    {
+        sizeDirection2 *= -1;
+        count1 = 0;
+    }
+    //bangs
+    fill(0);
+    ellipse(300,120,360,220);
+
+    //left brow
+    fill(10);
+    ellipse(browLX,browLY,80,60);
+    fill(200);
+    ellipse(230,270,90,45);
+    if(browLY >= 200 || browLY <= 500)
+    {
+        movement *= -1;
+    }
+    browLY += movement;
+    
+
+    //right  brow
+    fill(10);
+    ellipse(rightBX,rightBY,80,60);
+    fill(200);
+    ellipse(365,270,90,45);
+    if(rightBY >= 200 || rightBY <= 500)
+    {
+        movement2 *= -1;
+    }
+    rightBY += movement2;
+
+    //left eye
+    strokeWeight(1);
+    fill(230)
+    triangle(196, 270, 230, 290, 260, 275);
+
+    //right eye
+    strokeWeight(1);
+    fill(230)
+    triangle(400, 270, 360, 290, 330, 275);
+
+    //left pupil
+    fill(230);
+    strokeWeight(8);
+    point(pupilLeftX, pupilLeftY);
+    if(pupilLeftX <= 260 || pupilLeftX >= 196)
+        {
+            movement3 *= -1;
+        }
+        pupilLeftX += movement3;
+
+
+
+    //right pupil
+    fill(230);
+    strokeWeight(8);
+    point(pupilRightX, pupilRightY);
+    if(pupilRightX >= 400 || pupilRightX <= 330)
+    {
+        movement *= -1;
+    }
+    pupilRightX += movement;
+
+    //nose
+    strokeWeight(1);
+    triangle(300, 280, 315, 350, 290, 360);
+    strokeWeight(0);
+    triangle(299, 280, 314, 350, 289, 360);
+
+    //mouth line
+    strokeWeight(2);
+    line(230, 380, 360, 390);
+
+}
+*/
+// x and y for my character
+var characterX = 100;
+var characterY = 100;
+// define the key codes for each letter
+var w = 87; 
+var s = 83;
+var a = 65;
+var d = 68;
+
+// x and y for a shape
+var shapeX = 30;
+var shapeY = 50;
+var shapeXSpeed;
+var shapeYSpeed;
+
+// create a shape when the mouse is clicked
+var mouseShapeX;
+var mouseShapeY;
+function setup()
+{
+    createCanvas(500, 600);
+    // get a random speed when the it first starts
+    shapeXSpeed = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
+    shapeYSpeed = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
+}
+
+function draw()
+{
+    background(120,45,78);
+    stroke(0);
+    fill(0);
+    // top border
+    rect(0,0,width,10);
+    // left border
+    rect(0,0,10,height);
+    // bottom border
+    rect(0, height-10,width, 10);
+    // right upper border
+    rect(width-10,0,10,height-50);
+
+    // exit message
+    textSize(16);
+    text("EXIT", width-50,height-50)
+
+    //character
+    fill(23,40,123);
+    circle(characterX,characterY,25);
+
+    // handle the keys
+    if(keyIsDown(w))
+    {
+        characterY -= 10;   
+    }
+    if(keyIsDown(s))
+    {
+        characterY += 10;   
+    }
+    if(keyIsDown(a))
+    {
+        characterX -= 10;   
+    }
+    if(keyIsDown(d))
+    {
+        characterX += 10;   
+    }
+
+    // potential enemy
+    fill(13,145,14);
+    // draw the shape
+    circle(shapeX, shapeY, 10);
+
+     // get a random speed when the it first starts
+     shapeXSpeed = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
+     shapeYSpeed = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
+
+    // move the shape
+    shapeX += shapeXSpeed;
+    shapeY += shapeYSpeed;
+    // check to see if the shape has gone out of bounds
+    if(shapeX > width)
+    {
+        shapeX = 0;
+    }
+    if(shapeX < 0)
+    {
+        shapeX = width;
+    }
+    if(shapeY > height)
+    {
+        shapeY = 0;
+    }
+    if(shapeY < 0)
+    {
+        shapeY = height;
+    }
+
+    // check to see if the character has left the exit
+    if(characterX > width && characterY > width-50)
+    {
+        fill(0);
+        stroke(5);
+        textSize(26);
+        text("You Win!", width/2-50, height/2-50);
+    }
+
+    // create the shape based on the mouse click
+    fill(120,130,140);
+    circle(mouseShapeX, mouseShapeY, 25);
+}
+
+function mouseClicked()
+{
+    mouseShapeX = mouseX;
+    mouseShapeY = mouseY;
+}
+/*
+function keyPressed() {
+    if (keyCode === LEFT_ARROW) {
+        characterX -= 10;
+    } 
+    else if (keyCode === RIGHT_ARROW) {
+        characterX += 10;
+    }
+    else if (keyCode === UP_ARROW) {
+        characterY -= 10;
+    }
+    else if (keyCode === DOWN_ARROW) {
+        characterY += 10;
+    }
+  }
+  */
