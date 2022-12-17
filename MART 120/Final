@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>"Final Portfolio"</title>
+        <script src="Final Portfolio.css"></script>
+        <h1>Cody Jorgenson's Final Portfolio</h1>
+            <p>This is the home page to my portfolio for the Winter Semster 2022 at the University of Montana. The links contain a screenshot of the Homework, as well as a link to the page of of the homework, if applicable.</p>
+        <body style="background-color: rgb(40, 34, 34); color: rgb(196, 196, 196);">
+            <div>_</div>
+                <h3><strong>Homework 1:</strong></h3><p>This week we submited a short paper on GUI and command-line folders and files into the Homework 1 folder.</p>
+                <p><img src="/Users/codyjorgenson/Desktop/Final/Hw1 F/Screen Shot 2022-12-16 at 6.23.53 PM.png" width="542" height="376.5"></p>
+            <div>_</div>
+                <h3><strong>Homework 2:</strong></h3><p>This assignment had us using coding program courses using block coding to solve problems and create final pieces for homework submission. We also wrote to documents, one about what kind of learner we are, and the other about our reflection of "The Last Lecture".</p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw2 F/Screen Shot 2022-09-10 at 7.19.26 PM copy.png" width="542" height="376.5"></p> 
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw2 F/Screen Shot 2022-09-10 at 8.35.05 PM copy.png" width="542" height="376.5"></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw2 F/Screen Shot 2022-09-10 at 8.36.31 PM copy.png" width="542" height="376.5"></p>
+            <div>_</div>
+                <h3><strong>Homework 3:</strong></h3><p>In this homework we given the creative freedom to make a game in Scratch using block coding.</p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw3 F/Screen Shot 2022-12-16 at 6.53.53 PM.png" width="542" height="376.5"></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw3 F/Screen Shot 2022-12-16 at 6.55.41 PM.png" width="542" height="376.5"></p>
+            <div>_</div>
+                <h3><strong>Homework 4:</strong></h3><p>This week we worked in "Play Lab" using "Studio Code" to make functioning apps. Bellow are links to the projects and screenshot demo'ing them.</p>
+                    <p><a href="https://studio.code.org/c/1725592363">Play Lab Game</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw4 F/Screen Shot 2022-12-16 at 7.37.00 PM.png" width="542" height="376.5"></p>
+                    <p><a href="https://studio.code.org/projects/applab/J4qLEq69bZvVjtLJG-fADLWHV07f7cAvQTmJMlGCyHA">Mobile App</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw4 F/Screen Shot 2022-12-16 at 7.08.05 PM.png" width="542" height="356"></p>
+            <div>_</div>
+                <h3><strong>Homework 5:</strong></h3><p>This week we created a game using the program Alice to tell a creative narrative.</p>
+                    <p><a href="/Users/codyjorgenson/Desktop/Fall 2022/Coding/Homework 5/Help Alice game.a3p">Alice Game</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw5 F/Screen Shot 2022-12-16 at 7.17.52 PM.png" width="742" height="376.5"></p>
+                    <p>This is a sample from inside the game I made.</p>
+            <div>_</div>
+                <h3><strong>Homework 6:</strong></h3><p>In this week we made our first set of web pages, displaying different content on each page. We learned how to link stuff to our pages, and use basic html.</p>
+                    <p><a href="/Users/codyjorgenson/Desktop/Fall 2022/Coding/Homework 6/First web.html">Home page</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw6 F/Screen Shot 2022-12-16 at 7.57.55 PM.png" width="542" height="376.5"></p>
+                    <p><a href="/Users/codyjorgenson/Desktop/Fall 2022/Coding/Homework 6/Page two.html">Page two</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw6 F/Screen Shot 2022-12-16 at 7.58.05 PM.png" width="742" height="376.5"></p>
+                    <p><a href="/Users/codyjorgenson/Desktop/Fall 2022/Coding/Homework 6/third page.html">Page three</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw6 F/Screen Shot 2022-12-16 at 7.57.29 PM.png" width="542" height="376.5"></p>
+            <div>_</div>
+                <h3><strong>Homework 7:</strong></h3><p>In this week we made our web pages change in appearance usins CSS.</p>
+                    <p><a href="/Users/codyjorgenson/Desktop/Fall 2022/Coding/Homework 6/First web.html">Home page</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw7 F/Screen Shot 2022-12-16 at 8.07.59 PM.png" width="542" height="376.5"></p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall%202022/Coding/Homework%207/Page%20two%20copy.html">Page two</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw7 F/Screen Shot 2022-12-16 at 8.08.49 PM.png" width="742" height="376.5"></p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall%202022/Coding/Homework%207/third%20page%20copy.html">Page three</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw7 F/Screen Shot 2022-12-16 at 8.08.59 PM.png" width="542" height="376.5"></p>
+            <div>_</div>
+                <h3><strong>Homework 8:</strong></h3><p>In this week we made a contacts page using, and used Java Script to help design the page. Here we used elements and functions to create the web page.</p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall%202022/Coding/Homework%208/Contact%20Page.html">Contact page</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw8 F/Screen Shot 2022-12-16 at 8.16.07 PM.png" width="542" height="376.5"></p>
+            <div>_</div>
+                <h3><strong>Homework 9:</strong></h3><p>In this week we dived into p5.js, and created a portriat using java script.</p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall%202022/Coding/Homework%209/Drawing%20Page.html">Self portriat</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw9 F/Screen Shot 2022-12-16 at 8.30.27 PM.png" width="542" height="376.5"></p>
+            <div>_</div>
+                <h3><strong>Homework 10:</strong></h3><p>In this week we took the portriat from last week and made the elements move based on given parameters using Java script.</p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall%202022/Coding/Homework%2010/Drawing%20Page%202.html">Self portriat</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw10/Screen Shot 2022-12-16 at 8.35.49 PM.png" width="542" height="376.5"></p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall%202022/Coding/Homework%2010/DrawnPageJS">JavaScript</a></p>
+                    <p>^and this is a link to my java script file.</p>
+            <div>_</div>
+                <h3><strong>Homework 11:</strong></h3><p>In this week we used Java Script to make a simple 2-Dimensional game. Here I took the freedom of making the game different from that of the example, giving my chracter gravity, and some kind of bad physics to keep the ball rolling after releasing the key. It resembles a side scroller more than the top down version of the example material.</p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall%202022/Coding/Homework%2011/Jorgenson-Week11_Game.html">Java game</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw11/Screen Shot 2022-12-16 at 8.44.28 PM.png" width="542" height="376.5"></p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall 2022/Coding/Homework 11/Week11_Jorgenson-Simple_Game.js">JavaScript</a></p>
+                    <p>^and this is a link to my java script file.</p>
+            <div>_</div>
+                <h3><strong>Homework 12:</strong></h3><p>In this week we used the project from the week before but added some changes to the obstacles, and also started to call our code using functions.</p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall%202022/Coding/Homework%2012/Jorgenson-Week12_Game.html">Java game</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw12/Screen Shot 2022-12-16 at 8.57.11 PM.png" width="542" height="376.5"></p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall 2022/Coding/Homework 12/Week12_Jorgenson-Simple_Game.js">JavaScript</a></p>
+                    <p>^and this is a link to my java script file.</p>
+            <div>_</div>
+                <h3><strong>Homework 14:</strong></h3><p>In this week we took the project from the previous weeks, but we added more obstacles and talked about using arrays. We also had the objects constantly changing color too, which turned out to make the circles rainbow seizure orbs(for me at least).</p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall%202022/Coding/Homework%2014/Jorgenson-Week14_Game.html">Self portriat</a></p>
+                    <p><img src="/Users/codyjorgenson/Desktop/Final/Hw14/Screen Shot 2022-12-16 at 9.03.13 PM.png" width="542" height="376.5"></p>
+                    <p><a href="file:///Users/codyjorgenson/Desktop/Fall 2022/Coding/Homework 14/Week14_Jorgenson-Simple_Game.js">JavaScript</a></p>
+                    <p>^and this is a link to my java script file.</p>
+            <div>___</div>
+            <h4>This is the end of my portfolio for Winter Semster 2022 at the University of Montana. Thank you!</h5>
+        </body>
+    </head>
+</html>
